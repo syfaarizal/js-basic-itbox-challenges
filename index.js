@@ -11,21 +11,6 @@ console.log(kata)
 var isCorrect = true;
 console.log(isCorrect)
 
-// Challenge Day 1
-const name = "Syifa Fauziyah Arizal";
-let age = 20;
-let status = "belajar JavaScript";
-console.log(`Halo! Nama saya  ${name}. Saya berumur ${age} tahun. Hari ini saya sedang ${status}`);
-
-const now = new Date();
-const tanggal = now.getDate();
-const bulan = now.getMonth() + 1;
-const tahun = now.getFullYear();
-const jam = now.getHours();
-const menit = now.getMinutes();
-
-console.log(`Hari ini tanggal ${tanggal}/${bulan}/${tahun}, pukul ${jam}:${menit < 10 ? "0" + menit : menit}`);
-
 // OPERATOR MATEMATIKA
 
 var umur = 17;
@@ -102,4 +87,3 @@ var r = 7;
 var phi = 3.14;
 var luas = phi * r * r;
 console.log(luas)
-

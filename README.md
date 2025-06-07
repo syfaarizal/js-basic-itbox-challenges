@@ -1,38 +1,68 @@
-# 🧪 JavaScript Challenge — Day 1: Cetak Nama dan Tanggal
+# 📚 JavaScript Dasar – ITBOX
 
-Ini adalah bagian dari tantangan harian JavaScript aku (Code Sprint 30), di mana aku membangun pemahaman dasar JavaScript sambil langsung praktik menulis kode.
+Halo! 👋 Ini adalah proyek latihan JavaScript dasar yang aku pelajari melalui program ITBOX. Proyek ini mencakup pengenalan terhadap **variabel**, **tipe data**, **operator matematika**, **operator logika**, serta beberapa contoh perhitungan sederhana dengan JavaScript.
 
-## 🎯 Tujuan Challenge
+---
 
-- Mengenal dan menggunakan tipe data dasar (`number`, `string`, `boolean`)
-- Mencetak output ke console dengan `console.log()`
-- Belajar membuat dan menampilkan waktu secara dinamis dengan objek `Date`
-- Melatih penggunaan template literal `${}` dan operator ternary
+## 📁 Struktur File
 
-## 💻 Output Program
+<pre><code>
+.
+├── index.html # File HTML utama ```
+└── index.js # Script JavaScript untuk latihan ```
+</code></pre>
 
-Saat dijalankan, program ini akan mencetak:
-- Nilai dari tipe data dasar
-- Kalimat personal seperti nama dan status belajar
-- Tanggal dan waktu saat ini dalam format yang **readable** (misalnya: `05/06/2025, pukul 09:07`)
+---
 
-## 📦 File Terkait
+## ✨ Materi yang Dipelajari
 
-- `index.html` — File HTML sederhana untuk menautkan `index.js`
-- `index.js` — Berisi kode JavaScript utama dari challenge ini
+### 🧮 Variabel & Tipe Data
+- `number`: contoh `var angka = 157;`
+- `string`: contoh `"Hello World"`
+- `boolean`: `true`, `false`
 
-## 🧠 Konsep yang Dipelajari
+### ➕ Operator Matematika
+- Penjumlahan `+`
+- Pengurangan `-`
+- Perkalian `*`
+- Pembagian `/`
+- Modulus `%`
+- Pangkat `**`
 
-- Variabel dengan `var`, `let`, `const`
-- Template literal (`` `Hello, ${name}` ``)
-- Objek `Date` dan method-nya (`getDate()`, `getMonth()`, `getHours()`, dll.)
-- Format waktu dengan ternary operator untuk leading zero
+### 🧠 Urutan Operasi
+- Prioritas operator: `()` → `**` → `* /` → `+ -`
 
-## ✨ Contoh Output
+### 🤔 Operator Logika
+- `&&` (AND)
+- `||` (OR)
+- `!` (NOT)
+- `==` vs `===` (Equals)
 
-```bash
-157
-Hello World
-true
-Halo! Nama saya Syifa Fauziyah Arizal. Saya berumur 20 tahun. Hari ini saya sedang belajar JavaScript
-Hari ini tanggal 5/6/2025, pukul 9:07
+### 🔬 Studi Kasus Mini
+- Volume kubus (`sisi * sisi * sisi`)
+- Luas lingkaran (`phi * r * r`)
+- Contoh logika: `kaya && sehat`, `kaya || sehat`, `!kaya`
+
+---
+
+## 🛠️ Cara Menjalankan
+1. Buka `index.html` di browser.
+2. Buka developer console (`Ctrl + Shift + I` atau `F12`).
+3. Lihat hasil output dari `index.js` di tab "Console".
+
+---
+
+## 🎯 Tujuan Proyek
+
+- Memahami dasar pemrograman JavaScript
+- Belajar operator & logika program
+- Melatih penggunaan console log untuk debugging & eksplorasi
+
+---
+
+## 📌 Catatan
+> Proyek ini adalah bagian dari proses belajarku sebagai developer pemula. Akan terus diperbarui seiring berkembangnya kemampuan dan proyek lanjutan!
+
+---
+
+Made with ☕ & semangat belajar oleh **Syifa Arizal** 🌱
