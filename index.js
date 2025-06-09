@@ -9,7 +9,7 @@ console.log(kata)
 
 // boolean
 var isCorrect = true;
-console.log(isCorrect)
+console.log(typeof isCorrect) // typeof untuk mengetahui jenis tipe data -> boolean
 
 // OPERATOR MATEMATIKA
 
@@ -54,7 +54,7 @@ console.log(total)
 var kaya = true;
 var sehat = false;
 
-// AND -> DAN -> true kalau dua2nya true, false kalau salah satu nya false
+// AND -> DAN : true kalau dua2nya true, false kalau salah satu nya false
 var bahagia = kaya && sehat; //jika kaya true & sehat true maka dia bahagia
 console.log(bahagia) // false
 
@@ -87,3 +87,80 @@ var r = 7;
 var phi = 3.14;
 var luas = phi * r * r;
 console.log(luas)
+
+// Kondisi dalam JavaScript
+
+var angka = 2
+//  condition
+if (angka == 1){
+    console.log("Angka satu"); // <- statement inside if
+} else {
+    console.log("Angka selain 1"); // <- statement inside else
+}
+
+var angka = 2;
+
+if(angka < 2){
+    console.log("Angka di bawah 2")
+} else if (angka > 2){
+    console.log("Angka di atas 2") // <- statement inside else if
+} else {
+    console.log("Angka 2")
+}
+
+// Latihan
+var umur = 17;
+
+if(umur >= 17){
+    console.log("Bisa bikin KTP");
+}else{
+    console.log("Belum bisa bikin KTP");
+}
+
+// Switch Case
+
+var hari = "rabu";
+
+switch(hari){
+    case "senin":
+    case "selasa":
+    case "rabu":
+    case "kamis":
+    case "jumat":
+        console.log("weekday");
+        break;
+    case "sabtu":
+    case "minggu":
+        console.log("weekend");
+        break
+    default:
+        console.log("hari apaan tuh?");
+}
+
+// Latihan
+var minuman = "kopi";
+
+switch(minuman){
+    case "kopi":
+        console.log("Oh, kamu suka kopi ya");
+        break;
+    case "teh":
+        console.log("Oh, teh juga enak tuh");
+        break;
+    default:
+        console.log("Minuman apa ya?")
+}
+
+// Nested If
+var umur = 16;
+var tinggi = 150;
+
+if(umur < 17){
+    if(tinggi < 150){
+        console.log("Dilarang naik")
+    } else {
+        console.log("Boleh naik")
+    }
+}else{
+    console.log("Boleh masuk")
+}
