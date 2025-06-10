@@ -164,3 +164,16 @@ if(umur < 17){
 }else{
     console.log("Boleh masuk")
 }
+
+// Perulangan (loop)
+for (var i = 1; i <= 10; i ++){ // digunakan jika sudah tau akan berapa kali peengulangan
+    console.log(i);
+}
+
+// while -> di gunakan jika belum tahu berapa kali akan pengulangan
+var i = 1; //pakai variabel dulu
+while (i <= 10) {
+    console.log("Kiw" + i)
+    i++
+}
+
