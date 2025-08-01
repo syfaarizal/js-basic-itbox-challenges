@@ -82,16 +82,15 @@
 // var volume = sisi * sisi * sisi;
 // console.log(volume)
 
-// // hitung luas lingkaran -> 
+// hitung luas lingkaran -> 
 // var r = 7;
 // var phi = 3.14;
 // var luas = phi * r * r;
 // console.log(luas)
 
 // Kondisi dalam JavaScript
-
 // var angka = 2
-// //  condition
+//  condition
 // if (angka == 1){
 //     console.log("Angka satu"); // <- statement inside if
 // } else {
@@ -118,7 +117,6 @@
 // }
 
 // Switch Case
-
 // var hari = "rabu";
 
 // switch(hari){
@@ -138,7 +136,7 @@
 // }
 
 // // Latihan
-// var minuman = "kopi";
+// var minuman = "teh";
 
 // switch(minuman){
 //     case "kopi":
@@ -170,7 +168,7 @@
 //     console.log(i);
 // }
 
-// while -> di gunakan jika belum tahu berapa kali akan pengulangan
+// while // -> di gunakan jika belum tahu berapa kali akan pengulangan
 // var i = 1; //pakai variabel dulu
 // while (i <= 10) {
 //     console.log("Kiw" + i)
@@ -178,20 +176,108 @@
 // }
 
 // Latihan
-for (let i = 1; i <= 5; i++) {
-  let baris = ``; // variable penampung sementara 
-  for (let j = 1; j <= i; j++) {
-    baris += + j;
-  }
-  console.log(baris);
-}
+// for (let i = 1; i <= 5; i++) {
+//   let baris = ``; // variable penampung sementara 
+//   for (let j = 1; j <= i; j++) {
+//     baris += + j;
+//   }
+//   console.log(baris);
+// }
 
-for (let i = 1; i <= 5; i++) {
-    let temp = ``;
-    for(j = 1; j <= i; j++) {
-        temp += i;
-    }
-    console.log(temp);
-}
+// for (let i = 1; i <= 5; i++) {
+//     let temp = ``;
+//     for(j = 1; j <= i; j++) {
+//       temp += i;
+//     }
+//     console.log(temp);
+// }
 
 // Larik/Array
+// var scores = [100, 50, 70]; 
+// console.log(scores[0]); // akses elemen pertama
+// console.log(scores.length); // panjang array
+// console.log(scores[scores.length - 1]); // akses elemen terakhir
+// scores.push(80); // menambah elemen di akhir array
+// console.log(scores); // [100, 50, 70, 80]
+// scores.pop(); // menghapus elemen terakhir
+// console.log(scores); // [100, 50, 70]
+// scores.unshift(90); // menambah elemen di awal array
+// console.log(scores); // [90, 100, 50, 70]
+// scores.shift(); // menghapus elemen pertama
+// console.log(scores); // [100, 50, 70]
+// Menggunakan forEach untuk iterasi
+// scores.forEach(function(score, index) {
+//     console.log(`Score ${index + 1}: ${score}`);
+// });
+
+//Larik Multidimensi / Larik 2 dimensi
+// Array di dalam array
+// var scores = [
+//     [10, 20, 30],
+//     [15, 25, 35],
+//     [5, 7, 9]
+// ]
+//console.log(scores[0][1]); // akses elemen kedua dari array pertama = 20
+
+// Latihan
+var murid = [
+    [1, "Vincent", 3.5],
+    [2, "Udin", 3.0],
+    [3, "Mamang", 2.1],
+];
+
+for(var i = 0; i < murid.length; i++){
+    if(murid[i][2] >= 3.0){
+        console.log(murid[i][0] + ". " + murid[i][1] + ", IPK = " + murid[i][2] + ", Lulus");
+    } else {
+        console.log(murid[i][0] + ". " + murid[i][1] + ", IPK = " + murid[i][2] + ", Gagal");
+    } 
+} 
+
+// function
+function hello() {
+    console.log("Hai, Pagi!");
+}
+// invoke
+hello(); // output -> Hai, Pagi!
+
+// Ganjil Genap
+function cekAngka (angka) {
+    if (angka % 2 == 0) {
+        console.log("Genap");
+    } else {
+        console.log("Ganjil");
+    }
+}
+cekAngka(5);
+
+// Modular Function
+function splitToArray (str) { // str = kalimat
+    var tempArray = str.split (" "); // mengubah string menjadi array -> ["Hello", "Selamat", "Pagi"]
+    return tempArray // mengembalikan array
+}
+
+function jumlahKata (kalimat) { // kalimat = "Hello Selamat Pagi"
+    var result = splitToArray(kalimat); // ["Hello", "Selamat", "Pagi"]
+    var arrayLength = result.length; // arrayLength = 3
+    return arrayLength; // 3
+}
+
+console.log(jumlahKata ("Hello Selamat Pagi")); // output -> 3
+
+// Latihan
+function countLength (str) { // str = "abcdefgh"
+    var countWord = str.length; // countWord = 8
+    return countWord; // 8
+}
+
+function checkLength (str) { // str = "abcdefgh"
+    var strLength = countLength(str); // strLength = 8
+    if(strLength >= 5 && strLength <= 12) { // 5 <= 8 <= 12
+        return "Kata sandi diterima"; // output -> Kata sandi diterima
+    } else { // 8 < 5 / 8 > 12
+        return "Masukan karakter antara 5 dan 12"; // output -> Masukan karakter antara 5 dan 12
+    }
+}
+
+console.log(checkLength("abcdefgh")); // output -> Kata sandi diterima
