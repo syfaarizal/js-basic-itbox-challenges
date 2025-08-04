@@ -1,68 +1,68 @@
-# 📚 JavaScript Dasar – ITBOX
+# 📚 Basic JavaScript – ITBOX
 
-Halo! 👋 Ini adalah proyek latihan JavaScript dasar yang aku pelajari melalui program ITBOX. Proyek ini mencakup pengenalan terhadap **variabel**, **tipe data**, **operator matematika**, **operator logika**, serta beberapa contoh perhitungan sederhana dengan JavaScript.
+Hello! 👋 This is a basic JavaScript practice project I studied through the ITBOX program. This project covers an introduction to **variables**, **data types**, **math operators**, **logical operators**, and a few simple calculation examples using JavaScript.
 
 ---
 
-## 📁 Struktur File
+## 📁 File Structure
 
 <pre><code>
 .
-├── index.html # File HTML utama ```
-└── index.js # Script JavaScript untuk latihan ```
+├── index.html   # Main HTML file
+└── index.js     # JavaScript script for practice
 </code></pre>
 
 ---
 
-## ✨ Materi yang Dipelajari
+## ✨ Topics Covered
 
-### 🧮 Variabel & Tipe Data
-- `number`: contoh `var angka = 157;`
-- `string`: contoh `"Hello World"`
+### 🧮 Variables & Data Types
+- `number`: example `var number = 157;`
+- `string`: example `"Hello World"`
 - `boolean`: `true`, `false`
 
-### ➕ Operator Matematika
-- Penjumlahan `+`
-- Pengurangan `-`
-- Perkalian `*`
-- Pembagian `/`
+### ➕ Math Operators
+- Addition `+`
+- Subtraction `-`
+- Multiplication `*`
+- Division `/`
 - Modulus `%`
-- Pangkat `**`
+- Exponentiation `**`
 
-### 🧠 Urutan Operasi
-- Prioritas operator: `()` → `**` → `* /` → `+ -`
+### 🧠 Order of Operations
+- Operator priority: `()` → `**` → `* /` → `+ -`
 
-### 🤔 Operator Logika
+### 🤔 Logical Operators
 - `&&` (AND)
 - `||` (OR)
 - `!` (NOT)
 - `==` vs `===` (Equals)
 
-### 🔬 Studi Kasus Mini
-- Volume kubus (`sisi * sisi * sisi`)
-- Luas lingkaran (`phi * r * r`)
-- Contoh logika: `kaya && sehat`, `kaya || sehat`, `!kaya`
+### 🔬 Mini Case Studies
+- Cube volume (`side * side * side`)
+- Circle area (`phi * r * r`)
+- Logic examples: `rich && healthy`, `rich || healthy`, `!rich`
 
 ---
 
-## 🛠️ Cara Menjalankan
-1. Buka `index.html` di browser.
-2. Buka developer console (`Ctrl + Shift + I` atau `F12`).
-3. Lihat hasil output dari `index.js` di tab "Console".
+## 🛠️ How to Run
+1. Open `index.html` in your browser.
+2. Open the developer console (`Ctrl + Shift + I` or `F12`).
+3. View the output from `index.js` in the "Console" tab.
 
 ---
 
-## 🎯 Tujuan Proyek
+## 🎯 Project Goals
 
-- Memahami dasar pemrograman JavaScript
-- Belajar operator & logika program
-- Melatih penggunaan console log untuk debugging & eksplorasi
-
----
-
-## 📌 Catatan
-> Proyek ini adalah bagian dari proses belajarku sebagai developer pemula. Akan terus diperbarui seiring berkembangnya kemampuan dan proyek lanjutan!
+- Understand the basics of JavaScript programming
+- Learn about operators & logic in programs
+- Practice using console logs for debugging & exploration
 
 ---
 
-Made with ☕ & semangat belajar oleh **Syifa Arizal** 🌱
+## 📌 Notes
+> This project is part of my learning journey as a beginner developer. It will be continuously updated as my skills and future projects grow!
+
+---
+
+Made with ☕ & the spirit of learning by **Syifa Arizal** 🌱
