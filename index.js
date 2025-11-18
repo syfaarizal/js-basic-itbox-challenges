@@ -311,3 +311,18 @@ console.log(laptop.merk); // output -> Asus
 console.log(laptop.warna); // output -> Silver
 console.log(laptop.tahun); // output -> 2021
 laptop.hidupkanLaptop(); // output -> Laptop dinyalakan
+
+// Constructor
+function Laptop (merk, warna, tahun) {
+    this.merk = merk;
+    this.warna = warna;
+    this.tahun = tahun;
+    this.hidupkanLaptop = function() {
+        console.log("Laptop dinyalakan");
+    }
+}
+var asus = new Laptop("Asus", "Silver", 2021);
+console.log(asus.merk); // output -> Asus
+console.log(asus.warna); // output -> Silver
+console.log(asus.tahun); // output -> 2021
+asus.hidupkanLaptop(); // output -> Laptop dinyalakan
