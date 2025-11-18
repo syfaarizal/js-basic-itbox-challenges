@@ -326,3 +326,9 @@ console.log(asus.merk); // output -> Asus
 console.log(asus.warna); // output -> Silver
 console.log(asus.tahun); // output -> 2021
 asus.hidupkanLaptop(); // output -> Laptop dinyalakan
+
+var lenovo = new Laptop("Lenovo", "Hitam", 2020);
+console.log(lenovo.merk); // output -> Lenovo
+console.log(lenovo.warna); // output -> Hitam
+console.log(lenovo.tahun); // output -> 2020
+lenovo.hidupkanLaptop(); // output -> Laptop dinyalakan 
