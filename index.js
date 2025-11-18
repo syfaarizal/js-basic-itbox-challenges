@@ -297,3 +297,17 @@ console.log(mobil.merk); // output -> Toyota
 console.log(mobil.warna); // output -> Hitam
 console.log(mobil.tahun); // output -> 2022
 mobil.nyalakanMobil(); // output -> Mobil dinyalakan
+
+// Latihan
+var laptop = {
+    merk: "Asus",
+    warna: "Silver",
+    tahun: 2021,
+    hidupkanLaptop: function() {    
+        console.log("Laptop dinyalakan");
+    }
+}
+console.log(laptop.merk); // output -> Asus
+console.log(laptop.warna); // output -> Silver
+console.log(laptop.tahun); // output -> 2021
+laptop.hidupkanLaptop(); // output -> Laptop dinyalakan
