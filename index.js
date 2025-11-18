@@ -281,3 +281,19 @@ function checkLength (str) { // str = "abcdefgh"
 }
 
 console.log(checkLength("abcdefgh")); // output -> Kata sandi diterima
+console.log(checkLength("abc")); // output -> Masukan karakter antara 5 dan 12
+console.log(checkLength("abcdefghijklmnop")); // output -> Masukan karakter antara 5 dan 12
+
+// Object
+var mobil = {
+    merk: "Toyota",
+    warna: "Hitam",
+    tahun: 2022,
+    nyalakanMobil: function() {
+        console.log("Mobil dinyalakan");
+    }
+}
+console.log(mobil.merk); // output -> Toyota
+console.log(mobil.warna); // output -> Hitam
+console.log(mobil.tahun); // output -> 2022
+mobil.nyalakanMobil(); // output -> Mobil dinyalakan
