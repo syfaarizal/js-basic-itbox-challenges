@@ -332,3 +332,18 @@ console.log(lenovo.merk); // output -> Lenovo
 console.log(lenovo.warna); // output -> Hitam
 console.log(lenovo.tahun); // output -> 2020
 lenovo.hidupkanLaptop(); // output -> Laptop dinyalakan 
+
+// Latihan
+function Mobil (merk, warna, tahun) {
+    this.merk = merk;
+    this.warna = warna;
+    this.tahun = tahun;
+    this.nyalakanMobil = function() {
+        console.log("Mobil dinyalakan");
+    }
+}
+var toyota = new Mobil("Toyota", "Hitam", 2022);
+console.log(toyota.merk); // output -> Toyota
+console.log(toyota.warna); // output -> Hitam
+console.log(toyota.tahun); // output -> 2022
+toyota.nyalakanMobil(); // output -> Mobil dinyalakan
