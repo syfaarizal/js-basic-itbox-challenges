@@ -347,3 +347,9 @@ console.log(toyota.merk); // output -> Toyota
 console.log(toyota.warna); // output -> Hitam
 console.log(toyota.tahun); // output -> 2022
 toyota.nyalakanMobil(); // output -> Mobil dinyalakan
+
+var honda = new Mobil("Honda", "Silver", 2021);
+console.log(honda.merk); // output -> Honda
+console.log(honda.warna); // output -> Silver
+console.log(honda.tahun); // output -> 2021
+honda.nyalakanMobil(); // output -> Mobil dinyalakan
