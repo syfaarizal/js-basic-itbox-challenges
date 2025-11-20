@@ -353,3 +353,4 @@ console.log(honda.merk); // output -> Honda
 console.log(honda.warna); // output -> Silver
 console.log(honda.tahun); // output -> 2021
 honda.nyalakanMobil(); // output -> Mobil dinyalakan
+// EOF
